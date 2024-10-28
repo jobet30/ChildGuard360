@@ -18,5 +18,21 @@
 		<members>Volunteer Coordinator</members>
 		<name>Profile</name>
 	</types>
+	<types>
+		<members>Administrative_Assistant</members>
+		<members>Child_Welfare_Manager</members>
+		<members>Community_Engagement_Manager</members>
+		<members>Data_Analyst</members>
+		<members>Donor_Relations_Manager</members>
+		<members>Executive_Director</members>
+		<members>Family_Support_Coordinator</members>
+		<members>Finance_Manager</members>
+		<members>Grant_Writer</members>
+		<members>IT_Support_Specialist</members>
+		<members>Mental_Health_Specialist</members>
+		<members>Training_and_Development_Manager</members>
+		<members>Volunteer_Coordinator</members>
+		<name>Role</name>
+	</types>
 	<version>60.0</version>
 </Package>
