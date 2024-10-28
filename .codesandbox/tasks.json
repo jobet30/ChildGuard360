@@ -1,0 +1,63 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "yarn install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:unit": {
+      "name": "test:unit",
+      "command": "yarn test:unit",
+      "runAtStart": false
+    },
+    "test:unit:watch": {
+      "name": "test:unit:watch",
+      "command": "yarn test:unit:watch",
+      "runAtStart": false
+    },
+    "test:unit:debug": {
+      "name": "test:unit:debug",
+      "command": "yarn test:unit:debug",
+      "runAtStart": false
+    },
+    "test:unit:coverage": {
+      "name": "test:unit:coverage",
+      "command": "yarn test:unit:coverage",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "prettier:verify": {
+      "name": "prettier:verify",
+      "command": "yarn prettier:verify",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "precommit": {
+      "name": "precommit",
+      "command": "yarn precommit",
+      "runAtStart": false
+    }
+  }
+}
