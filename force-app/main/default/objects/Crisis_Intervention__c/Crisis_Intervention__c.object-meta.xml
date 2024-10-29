@@ -160,7 +160,15 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Crisis Interventions</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Crisis_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description_of_Crisis__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Actions_Taken__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Outcome__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Follow_Up_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Support_Provided__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Last_Updated_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
