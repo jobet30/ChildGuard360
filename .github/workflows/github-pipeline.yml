@@ -1,0 +1,51 @@
+name: CI/CD Pipeline
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - QA
+      - UAT
+      - SIT
+      - ST
+      - Prod
+
+jobs:
+  build-and-deploy:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Unit Tests (Dev to QA)
+        if: github.base_ref == 'QA' && github.head_ref == 'Dev'
+        run: npm run test:unit
+
+      - name: Run Integration Tests (QA to UAT)
+        if: github.base_ref == 'UAT' && github.head_ref == 'QA'
+        run: npm run test:integration
+
+      - name: Deploy to UAT Environment
+        if: github.base_ref == 'UAT' && github.head_ref == 'QA'
+        run: ./deploy-to-uat.sh
+
+      - name: Deploy to SIT Environment
+        if: github.base_ref == 'SIT' && github.head_ref == 'UAT'
+        run: ./deploy-to-sit.sh
+
+      - name: Deploy to ST Environment
+        if: github.base_ref == 'ST' && github.head_ref == 'SIT'
+        run: ./deploy-to-st.sh
+
+      - name: Deploy to Production
+        if: github.base_ref == 'Prod' && github.head_ref == 'ST'
+        run: ./deploy-to-prod.sh
+
+      - name: Merge to Main (Post-Prod)
+        if: github.base_ref == 'Main' && github.head_ref == 'Prod'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge Prod Main
