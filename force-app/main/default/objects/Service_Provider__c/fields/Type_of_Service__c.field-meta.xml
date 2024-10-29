@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Service__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Service</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Educational</fullName>
+                <default>false</default>
+                <label>Educational</label>
+            </value>
+            <value>
+                <fullName>Social Services</fullName>
+                <default>false</default>
+                <label>Social Services</label>
+            </value>
+            <value>
+                <fullName>Counseling</fullName>
+                <default>false</default>
+                <label>Counseling</label>
+            </value>
+            <value>
+                <fullName>Family Support</fullName>
+                <default>false</default>
+                <label>Family Support</label>
+            </value>
+            <value>
+                <fullName>Substance Abuse Treatment</fullName>
+                <default>false</default>
+                <label>Substance Abuse Treatment</label>
+            </value>
+            <value>
+                <fullName>Housing Assistance</fullName>
+                <default>false</default>
+                <label>Housing Assistance</label>
+            </value>
+            <value>
+                <fullName>Child Care Services</fullName>
+                <default>false</default>
+                <label>Child Care Services</label>
+            </value>
+            <value>
+                <fullName>Legal Assistance</fullName>
+                <default>false</default>
+                <label>Legal Assistance</label>
+            </value>
+            <value>
+                <fullName>Crisis Intervention</fullName>
+                <default>false</default>
+                <label>Crisis Intervention</label>
+            </value>
+            <value>
+                <fullName>Job Training and Employment Services</fullName>
+                <default>false</default>
+                <label>Job Training and Employment Services</label>
+            </value>
+            <value>
+                <fullName>Nutrition Assistance</fullName>
+                <default>false</default>
+                <label>Nutrition Assistance</label>
+            </value>
+            <value>
+                <fullName>Community Outreach</fullName>
+                <default>false</default>
+                <label>Community Outreach</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
