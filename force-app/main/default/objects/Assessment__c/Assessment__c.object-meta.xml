@@ -160,7 +160,13 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Assessments</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Assessment_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Findings_Summary__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Recommendations__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Risk_Level__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Last_Updated_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
