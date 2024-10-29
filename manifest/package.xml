@@ -30,6 +30,10 @@
 		<name>CustomObject</name>
 	</types>
 	<types>
+		<members>*</members>
+		<name>Group</name>
+	</types>
+	<types>
 		<members>Administrative_Support</members>
 		<members>Child_Welfare_Specialist</members>
 		<members>Community_Engagement_Officer</members>
