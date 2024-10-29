@@ -17,6 +17,7 @@
 	</types>
 	<types>
 		<members>Incident_Report__c</members>
+		<members>Service_Provider__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
