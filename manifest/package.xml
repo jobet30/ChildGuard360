@@ -20,6 +20,7 @@
 		<members>Incident_Report__c</members>
 		<members>Service_Provider__c</members>
 		<members>Support_Program__c</members>
+		<members>Training_Session__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
