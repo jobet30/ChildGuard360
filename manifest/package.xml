@@ -16,6 +16,7 @@
 		<name>CustomField</name>
 	</types>
 	<types>
+		<members>Assessment__c</members>
 		<members>Crisis_Intervention__c</members>
 		<members>Feedback__c</members>
 		<members>Incident_Report__c</members>
