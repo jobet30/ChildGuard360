@@ -1,38 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Administrative Assistant</members>
-		<members>Child Welfare Manager</members>
-		<members>Community Engagement Manager</members>
-		<members>Data Analyst</members>
-		<members>Donor Relations Manager</members>
-		<members>Executive Director</members>
-		<members>Family Support Coordinator</members>
-		<members>Finance Manager</members>
-		<members>Grant Writer</members>
-		<members>IT Support Specialist</members>
-		<members>Mental Health Specialist</members>
-		<members>Program Director</members>
-		<members>Social Worker</members>
-		<members>Training and Development Manager</members>
-		<members>Volunteer Coordinator</members>
-		<name>Profile</name>
+		<members>Case.Assigned_Social_Worker__c</members>
+		<members>Case.Date_Closed__c</members>
+		<members>Case.Date_Opened__c</members>
+		<members>Case.Date_of_Birth__c</members>
+		<members>Case.Disability__c</members>
+		<members>Case.Ethnicity__c</members>
+		<members>Case.Gender__c</members>
+		<members>Case.Guardian_Parent_Information__c</members>
+		<members>Case.Notes_Comments__c</members>
+		<members>Case.Other_Ethnicity__c</members>
+		<members>Case.Special_Needs__c</members>
+		<members>Case.Status__c</members>
+		<name>CustomField</name>
 	</types>
 	<types>
-		<members>Administrative_Assistant</members>
-		<members>Child_Welfare_Manager</members>
-		<members>Community_Engagement_Manager</members>
+		<members>Incident_Report__c</members>
+		<members>Service_Provider__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Administrative_Support</members>
+		<members>Child_Welfare_Specialist</members>
+		<members>Community_Engagement_Officer</members>
 		<members>Data_Analyst</members>
-		<members>Donor_Relations_Manager</members>
-		<members>Executive_Director</members>
-		<members>Family_Support_Coordinator</members>
-		<members>Finance_Manager</members>
-		<members>Grant_Writer</members>
-		<members>IT_Support_Specialist</members>
-		<members>Mental_Health_Specialist</members>
-		<members>Training_and_Development_Manager</members>
-		<members>Volunteer_Coordinator</members>
-		<name>Role</name>
+		<members>Donor_Relations_Specialist</members>
+		<members>Experience_Profile_Manager</members>
+		<members>Family_Support_Advocate</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>Account.Adoptive_Family</members>
+		<members>Account.Biological_Family</members>
+		<members>Account.Business_Account</members>
+		<members>Account.Community_Partner</members>
+		<members>Account.Foster_Family</members>
+		<members>Account.Guardian_Relative</members>
+		<members>Account.PersonAccount</members>
+		<members>Account.Single_Parent_Family</members>
+		<members>Case.Abuse_Report</members>
+		<members>Case.General_Child_Welfare_Case</members>
+		<members>Case.General_Incident_Report</members>
+		<members>Case.Neglect_Report</members>
+		<members>Case.Safety_Concern_Report</members>
+		<members>Contact.Community_Partner</members>
+		<members>Contact.Donor</members>
+		<members>Contact.Emergency_Contact</members>
+		<members>Contact.Family_Member</members>
+		<members>Contact.Guardian_Relative</members>
+		<members>Contact.Volunteer</members>
+		<members>Incident_Report__c.Abuse_Incident</members>
+		<members>Incident_Report__c.General_Incident</members>
+		<members>Incident_Report__c.Neglect_Incident</members>
+		<members>Incident_Report__c.Safety_Concern</members>
+		<name>RecordType</name>
 	</types>
 	<version>60.0</version>
 </Package>
