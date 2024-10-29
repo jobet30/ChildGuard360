@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>Child_Guard_360</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
 		<members>Case.Assigned_Social_Worker__c</members>
 		<members>Case.Date_Closed__c</members>
 		<members>Case.Date_Opened__c</members>
