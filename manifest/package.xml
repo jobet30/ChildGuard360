@@ -26,8 +26,14 @@
 		<name>PermissionSet</name>
 	</types>
 	<types>
+		<members>Account.Adoptive_Family</members>
 		<members>Account.Biological_Family</members>
 		<members>Account.Business_Account</members>
+		<members>Account.Community_Partner</members>
+		<members>Account.Foster_Family</members>
+		<members>Account.Guardian_Relative</members>
+		<members>Account.PersonAccount</members>
+		<members>Account.Single_Parent_Family</members>
 		<members>Case.Abuse_Report</members>
 		<members>Case.General_Child_Welfare_Case</members>
 		<members>Case.General_Incident_Report</members>
