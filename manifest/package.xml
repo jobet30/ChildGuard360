@@ -28,6 +28,11 @@
 	<types>
 		<members>Account.Biological_Family</members>
 		<members>Account.Business_Account</members>
+		<members>Case.Abuse_Report</members>
+		<members>Case.General_Child_Welfare_Case</members>
+		<members>Case.General_Incident_Report</members>
+		<members>Case.Neglect_Report</members>
+		<members>Case.Safety_Concern_Report</members>
 		<name>RecordType</name>
 	</types>
 	<version>60.0</version>
