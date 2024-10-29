@@ -17,6 +17,7 @@
 	</types>
 	<types>
 		<members>Incident_Report__c</members>
+		<members>Service_Provider__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
@@ -43,6 +44,16 @@
 		<members>Case.General_Incident_Report</members>
 		<members>Case.Neglect_Report</members>
 		<members>Case.Safety_Concern_Report</members>
+		<members>Contact.Community_Partner</members>
+		<members>Contact.Donor</members>
+		<members>Contact.Emergency_Contact</members>
+		<members>Contact.Family_Member</members>
+		<members>Contact.Guardian_Relative</members>
+		<members>Contact.Volunteer</members>
+		<members>Incident_Report__c.Abuse_Incident</members>
+		<members>Incident_Report__c.General_Incident</members>
+		<members>Incident_Report__c.Neglect_Incident</members>
+		<members>Incident_Report__c.Safety_Concern</members>
 		<name>RecordType</name>
 	</types>
 	<version>60.0</version>
