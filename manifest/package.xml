@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>Case.Assigned_Social_Worker__c</members>
+		<members>Case.Date_Closed__c</members>
+		<members>Case.Date_Opened__c</members>
+		<members>Case.Date_of_Birth__c</members>
+		<members>Case.Disability__c</members>
+		<members>Case.Ethnicity__c</members>
+		<members>Case.Gender__c</members>
+		<members>Case.Guardian_Parent_Information__c</members>
+		<members>Case.Notes_Comments__c</members>
+		<members>Case.Other_Ethnicity__c</members>
+		<members>Case.Special_Needs__c</members>
+		<members>Case.Status__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>Administrative_Support</members>
 		<members>Child_Welfare_Specialist</members>
 		<members>Community_Engagement_Officer</members>
