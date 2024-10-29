@@ -10,5 +10,10 @@
 		<members>Family_Support_Advocate</members>
 		<name>PermissionSet</name>
 	</types>
+	<types>
+		<members>Account.Biological_Family</members>
+		<members>Account.Business_Account</members>
+		<name>RecordType</name>
+	</types>
 	<version>60.0</version>
 </Package>
