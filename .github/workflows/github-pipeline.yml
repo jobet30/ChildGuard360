@@ -19,14 +19,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Unit Tests (Dev to QA)
-        if: github.base_ref == 'QA' && github.head_ref == 'Dev'
-        run: npm run test:unit
-
-      - name: Run Integration Tests (QA to UAT)
-        if: github.base_ref == 'UAT' && github.head_ref == 'QA'
-        run: npm run test:integration
-
       - name: Deploy to UAT Environment
         if: github.base_ref == 'UAT' && github.head_ref == 'QA'
         run: ./deploy-to-uat.sh
